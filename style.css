@@ -46,6 +46,12 @@ body {
   border-radius: 5px;
   padding: 8px 13px;
 }
+
+.btn:hover {
+  color: #8090bc;
+  border: 2px solid #8090bc;
+}
+
 #home-buttons,
 #guest-buttons {
   margin: 20px;
@@ -62,4 +68,7 @@ body {
   border-radius: 5px;
   border-color: none;
   padding: 5px 10px;
+}
+#reset:hover {
+  background-color: #a44556;
 }
