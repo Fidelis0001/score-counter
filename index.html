@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.cdnfonts.com/css/ cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Scoreboard</title>
+  </head>
+  <body>
+    <div class="outer-container">
+      <div class="score-board">
+        <h3>HOME</h3>
+        <div class="score-container">
+          <p class="home-score" id="home-score">0</p>
+        </div>
+        <div class="buttons" id="home-buttons">
+          <button class="btn" onclick="addOneHome()">+1</button>
+          <button class="btn" onclick="addTwoHome()">+2</button>
+          <button class="btn" onclick="addThreeHome()">+3</button>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="score-board">GUEST</h3>
+        <div class="score-container">
+          <p class="guest-score" id="guest-score">0</p>
+        </div>
+        <div class="buttons" id="guest-buttons">
+          <button class="btn" onclick="addOneGuest()">+1</button>
+          <button class="btn" onclick="addTwoGuest()">+2</button>
+          <button class="btn" onclick="addThreeGuest()">+3</button>
+        </div>
+      </div>
+    </div>
+    <button id="reset" onclick="reset()">RESET</button>
+    <script src="index.js"></script>
+  </body>
+</html>
