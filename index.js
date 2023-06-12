@@ -12,8 +12,8 @@ function addToHome(count) {
   homeScore.textContent = countHome;
 }
 
-function addToGuest(count2) {
-  countGuest += count2;
+function addToGuest(count) {
+  countGuest += count;
   guestScore.textContent = countGuest;
 }
 
